@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: right;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 20px;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.Sobre-imagem{
+    width: 25%;
+}
+
+.Sobre{
+    background-image: linear-gradient(rgb(242, 232, 184), rgb(242, 232, 184));
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Sobre-div-conteudo{
+    width: 40%;
+}
+
+
+.Sobre-titulo{
+    padding: 40px 0;
+}
+
+
+.Informações{
+    padding: 24px 0;
+}
+.Informações-imagem{
+    width: 150px;
+}
+
+.Informações-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.Informações-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.Informações-titulo{
+    text-align: center;
+    padding: 24px 0;
+}
+
+.Informações-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.Informações{
+    background-image:linear-gradient( rgb(242, 232, 184), rgb(242, 232, 184));
+    color:black;
+}
+
+.rodape {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
